@@ -21,6 +21,8 @@ body {
 .nav-menu {
     color: #64ffda;
     list-style-type: decimal-leading-zero;
+    margin-left: 200%;
+    transition: all 0.5s;
 }
 
 .nav-menu li {
@@ -35,6 +37,10 @@ body {
 .menu__link:hover {
     color: #64ffda;
     text-decoration: underline;
+}
+
+.mostrar {
+    margin-left: 50%;
 }
 
 /* body {
