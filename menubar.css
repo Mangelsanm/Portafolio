@@ -9,7 +9,8 @@
   .menu-container {
     float: right;
     margin: 5px;
-    border: solid;
+    border: solid green;
+    cursor: pointer;
     /* position: absolute;
     top: 2%;
     right: 1%; */
