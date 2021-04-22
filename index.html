@@ -8,128 +8,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="menubar.css">
 </head>
 <body>
-    <div class="container">
-        <nav class="nav-main">
-            <img src="img/brand.png" alt="Portafolio-logo" class="nav-brand">
-            <ul class="nav-menu">
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Skill Set</a>
-                </li>
-                <li>
-                    <a href="#">Experience</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-            <ul class="nav-menu-right">
-                <li>
-                    <a href="#">
-                        <i class="fas fa-search"></i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <hr>
+    <header>
+        <div class="container">
 
-        <!--Showcase-->
-        <header class="showcase">
-            <h2>Big News Today</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, amet alias voluptates, dolore incidunt ipsam eos blanditiis facilis nam animi, facere sunt ullam officiis autem assumenda. Voluptas suscipit fuga eveniet!</p>
-            <a href="#" class="btn">Read more <i class="fas fa-angle-double-right"></i></a>
-        </header>
+            <div class="menu-container">
+                <div class="bars">
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="other-bar"></div>
+                </div>
+            </div>
 
-        <!--News-->
-        <div class="news-cards">
-            <div>
-                <img src="./img/1.jpg" alt="News 1">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nisi doloremque odit possimus corrupti quia pariatur dolor magni? Voluptatem, vel!</p>
-                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
-            </div>
-            <div>
-                <img src="./img/2.jpg" alt="News 2">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nisi doloremque odit possimus corrupti quia pariatur dolor magni? Voluptatem, vel!</p>
-                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
-            </div>
-            <div>
-                <img src="./img/3.jpg" alt="News 3">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nisi doloremque odit possimus corrupti quia pariatur dolor magni? Voluptatem, vel!</p>
-                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
-            </div>
-            <div>
-                <img src="./img/4.jpg" alt="News 4">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nisi doloremque odit possimus corrupti quia pariatur dolor magni? Voluptatem, vel!</p>
-                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
-            </div>
+            <nav class="nav-main">
+                <ol class="nav-menu" id="menu">
+                    <li>
+                        <a href="#" class="menu__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu__link">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu__link">Work</a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu__link">Contact</a>
+                    </li>
+                </ol>
+            </nav>
         </div>
-
-        <section class="cards-banner-one">
-            <div class="content">
-                <h2>Lorem, ipsum dolor.</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis velit sint illum sapiente excepturi quam earum et illo odio exercitationem?</p>
-                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
-            </div>
-        </section>
-
-        <!--News-->
-        <div class="news-cards">
-            <div>
-                <img src="./img/1.jpg" alt="News 1">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nisi doloremque odit possimus corrupti quia pariatur dolor magni? Voluptatem, vel!</p>
-                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
-            </div>
-            <div>
-                <img src="./img/2.jpg" alt="News 2">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nisi doloremque odit possimus corrupti quia pariatur dolor magni? Voluptatem, vel!</p>
-                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
-            </div>
-            <div>
-                <img src="./img/3.jpg" alt="News 3">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nisi doloremque odit possimus corrupti quia pariatur dolor magni? Voluptatem, vel!</p>
-                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
-            </div>
-            <div>
-                <img src="./img/4.jpg" alt="News 4">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nisi doloremque odit possimus corrupti quia pariatur dolor magni? Voluptatem, vel!</p>
-                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
-            </div>
-        </div>
-
-        <!--Banner two-->
-        <section class="cards-banner-two">
-            <div class="content">
-                <h2>Lorem, ipsum dolor.</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis velit sint illum sapiente excepturi quam earum et illo odio exercitationem?</p>
-                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
-            </div>
-        </section>
-
-        <!--Social-->
-        <section class="social">
-            <p>Follow me</p>
-            <div class="links">
-                <a href="#">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-        </section>
-    </div>    
+    </header>
+    <script src="main.js"></script>
 </body>
 </html>
