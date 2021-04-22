@@ -2,14 +2,17 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
     background-color: #0a192f;
-  }
+  } */
   
   .menu-container {
-    position: absolute;
+    float: right;
+    margin: 5px;
+    border: solid;
+    /* position: absolute;
     top: 2%;
-    right: 1%;
+    right: 1%; */
   }
 
   .menu-container .bars {
